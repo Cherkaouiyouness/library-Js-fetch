@@ -1,0 +1,62 @@
+*{
+    margin : 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 2.5em; text-align: center; text-transform: uppercase;padding: 25px;margin-bottom: 50px;
+}
+input{
+    width: 20%;
+     padding: 10px;
+     border-radius: 15px;
+     position: relative;
+     left: 210px;
+     border: 2px solid black;
+     font-size: 1.1em;
+     margin: 0 8px;
+}
+.search button{
+    position: relative;
+    left: 225px;
+    width: 10%;
+    padding: 10px;
+    background-color: chartreuse;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cards{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap :40px;
+}
+.box{
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: rgb(231, 224, 224);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.box .image img{
+    width:150px ;
+    margin: 20px 100px;
+}
+.box .image .card ,h4 ,p , h2 {
+    margin: 0 20px;
+}
+.box .image .card h4{
+    font-size: 1em;
+    color: grey;
+    padding: 4px;
+} 
+.box .image .card h2{
+    font-size: 1.2em;
+    padding: 5px;
+}
